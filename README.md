@@ -2,13 +2,13 @@
 
 ## Overview
 
-This project is a **personal portfolio website** built purely with **HTML and CSS**. It showcases your programming skills, education, interests, major projects, and provides a contact form for potential employers or collaborators. The design emphasizes clean aesthetics, responsive layout, and accessibility—without relying on any external frameworks or libraries.
+This project is a **personal portfolio website** built purely with **HTML and CSS**. It showcases my programming skills, education, interests, major projects, and provides a contact form for potential employers or collaborators. The design emphasizes clean aesthetics, responsive layout, and accessibility—without relying on any external frameworks or libraries.
 
 ## Features
 
-- **Programming Languages**: Visually highlights languages and your strengths.
+- **Programming Languages**: Visually highlights languages and my strengths.
 - **About Section**: Concise personal introduction.
-- **Educational Background**: Details of your academic journey, with CV download link.
+- **Educational Background**: Details of my academic journey, with CV download link.
 - **Interests**: Insights into your tech passions and aspirations.
 - **Projects**: Showcases notable projects with descriptions and technology used.
 - **Contact Form**: Lets visitors send you messages easily.
@@ -57,36 +57,26 @@ Open `index.html` in any modern web browser.
 
 This site’s form is static-only; to capture submissions, you must connect to a third-party service (such as Formspree or Getform):
 
-- Replace the `action="#"` attribute in `` with the endpoint provided by your chosen service.
-- Optionally, adjust method and add hidden fields as required.
-
-**Example**:
-
-```html
-
-  
-
-```
-
 ## Code Structure
 
 - **index.html**: Main website, fully commented for clarity.
+- **styles.css: All styling information
 - **resume.pdf**: (Add your CV here)
 - **No external dependencies**
 
 ## Customization Tips
 
-- Change colors by editing CSS variable values in the `` block.
+- Change colors by editing CSS variable values in the `:root` block of your CSS file.
 - Add or remove sections as needed.
 - Update animations or layout for personal flair.
 
 ## License
 
-This project is released under the MIT License — you are free to customize and use as you wish.
+MIT License. Free to modify and personalize.
 
 ## Credits
 
-Designed and coded by **[Your Name]** — inspired by best practices in web development.
+Designed and coded by **Adebukunola Oyetimehin** — inspired by best practices in web development.
 
 **Questions or issues?**  
 Open an issue in the repo, or use the contact form on your site!
