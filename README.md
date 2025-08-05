@@ -6,13 +6,17 @@ This project is a **personal portfolio website** built purely with **HTML and CS
 
 ## Features
 
-- **Programming Languages**: Visually highlights languages and my strengths.
-- **About Section**: Concise personal introduction.
+- **Technical Skills**: Highlights experience in Git, Linux, Windows, DevOps,
+    End-User Support, and more.
+- **About Section**: Brief professional introduction and motivation.
 - **Educational Background**: Details of my academic journey, with CV download link.
 - **Interests**: Insights into your tech passions and aspirations.
-- **Projects**: Showcases notable projects with descriptions and technology used.
-- **Contact Form**: Lets visitors send you messages easily.
-- **Mobile Friendly**: Fully responsive design.
+- **Certifications**: Including DevOps/Support specialization
+- **Projects**: Notable hands-on projects in microservices, security, and data
+  - analysis.
+- **Contact Form**: Easy way for potential clients, employers, or collaborators to
+    connect.
+- **Responsive**: Optimized for mobile and desktop displays.
 - **No JavaScript/No Frameworks**: Raw HTML and CSS only.
 
 ## Getting Started
@@ -20,19 +24,16 @@ This project is a **personal portfolio website** built purely with **HTML and CS
 ### 1. Clone or Download
 
 ```bash
-git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
+git clone https://github.com/Mayowa2020/My-Portfolio-Website.git
+cd My-Portfolio-Website
 ```
 
 Or download and unzip the repo files directly.
 
 ### 2. Customize Content
 
-- Open `index.html` and **replace all placeholder text**, including:
-  - `"Your Name"`
-  - About section, education background, interests
-  - Project links, project descriptions, tech stack
-- **Add your resume** file as `resume.pdf` (or update the file name in the download link).
+- Update personal details, add your email address, and add links as needed in `index.html`.
+- Place your CV file as `CV.docx` in the same directory for the download link.
 - Update contact form instructions if connecting to a backend.
 
 ### 3. Preview Locally
@@ -55,14 +56,23 @@ Open `index.html` in any modern web browser.
 
 ## Contact Form Setup
 
-This site’s form is static-only; to capture submissions, you must connect to a third-party service (such as Formspree or Getform):
+This site’s form is static-only. To make it fully functional, connect it to a backend handling service such as Formspree or Getform.
 
 ## Code Structure
 
-- **index.html**: Main website, fully commented for clarity.
+- **index.html**: Main website file, fully commented for clarity.
 - **styles.css**: All styling information
-- **resume.pdf**: (Add your CV here)
+- **README.md**:
+- **CV.docx**: (Add your CV here)
 - **No external dependencies**
+
+## Folder Structure
+
+My-portfolio-website/
+├── index.html # Main website file, fully commented for clarity.
+├── styles.css # All styling information
+├── CV.docx        ← downloadable CV
+└── README.md
 
 ## Customization Tips
 
@@ -76,7 +86,9 @@ MIT License. Free to modify and personalize.
 
 ## Credits
 
-Designed and coded by **Adebukunola Oyetimehin** — inspired by best practices in web development.
+Site content and layout based on Adebukunola Oyetimehin's CV and professional background.
+
+If you need more sections or want additional design features, feel free to update these files!
 
 **Questions or issues?**  
-Open an issue in the repo, or use the contact form on your site!
+Open an issue in the repo, or use the contact form on my site!
