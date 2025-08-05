@@ -60,7 +60,7 @@ This site’s form is static-only; to capture submissions, you must connect to a
 ## Code Structure
 
 - **index.html**: Main website, fully commented for clarity.
-- **styles.css: All styling information
+- **styles.css**: All styling information
 - **resume.pdf**: (Add your CV here)
 - **No external dependencies**
 
